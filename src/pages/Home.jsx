@@ -133,7 +133,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-[15px] lg:gap-[9px]">
                             <p className="text-lg font-bold text-center lg:text-left">Easy Download</p>
-                            <p className="text-base font-normal text-center lg:text-left">Zwallet is 100% totally free to use it&apos;s now available on Google Play Store and App Store.</p>
+                            <p className="text-base font-normal text-center lg:text-left">Vallet is 100% totally free to use it&apos;s now available on Google Play Store and App Store.</p>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@ const Home = () => {
             </div>
             <div className="lg:flex-1">
                 <div className="flex flex-col gap-[25px]">
-                    <p className="font-medium text-[32px] ">All The Great Zwallet Features.</p>
+                    <p className="font-medium text-[32px] ">All The Great Vallet Features.</p>
                     <p>We have some great features from the application and it&apos;s totally free to use by all users around the world.</p>
                     <ul className="flex flex-col gap-3 text-[#00A700] text-lg font-bold">
                         <li className="flex gap-3">
@@ -220,7 +220,7 @@ const Home = () => {
 
             </div>
 
-            <div className='flex justify-center items-center gap-4'>
+            <div className='flex items-center justify-center gap-4'>
                 <button disabled={pages-1 == 0} onClick={()=>changePages(pages - 1)} className='text-xl flex items-center justify-center w-8 h-8 active:bg-[#764abc] disabled:bg-white bg-gray-400 rounded-full md:hidden text-white active:scale-95 transition-all'>
                      <FiArrowLeft />
                 </button>

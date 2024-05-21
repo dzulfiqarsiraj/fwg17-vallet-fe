@@ -13,7 +13,7 @@ const Footer = () => {
 
                             <div className="flex items-center gap-2 w-fit">
                                 <img src={walletIcon} alt="wallet icon"/>
-                                <span className="text-white text-lg sm:text-3xl">Vallet</span>
+                                <span className="text-lg text-white sm:text-3xl">Vallet</span>
                             </div>
 
                             <span className="text-white">Clarity gives you the blocks and components you need to create a truly
@@ -28,7 +28,7 @@ const Footer = () => {
                             </div>
                             <div className="flex gap-[10px] items-center">
                                 <div><FiMail className="text-white" /></div>
-                                <span className="text-white">contact@zwallet.com</span>
+                                <span className="text-white">contact@vallet.com</span>
                             </div>
                         </div>
                         <div className="flex flex-col gap-[10px]">
@@ -62,7 +62,7 @@ const Footer = () => {
                         </div>
                         <div className="flex flex-col gap-[15px] w-full max-w-[300px]">
                             <span className="text-white text-[18px]">NEWSLETTER</span>
-                            <div className="flex gap-3 flex-col">
+                            <div className="flex flex-col gap-3">
                                 <div className="-mt-[5px] flex relative items-center">
                                     <div className="text-[#4F5665] absolute left-3"><FiMail /></div>
                                     <input  className="w-full text-[#4F5665] disabled:bg-transparent border-solid border-2 rounded-lg px-12 py-1 outline-none" name="email"
@@ -73,9 +73,9 @@ const Footer = () => {
                         </div>
                     </form>
                     <div className="mb-[25px]">
-                        <div className="h-1 w-full bg-white"></div>
+                        <div className="w-full h-1 bg-white"></div>
                     </div>
-                    <span className="text-white text-center">© Copyright 2022, All Rights Reserved by ClarityUI</span>
+                    <span className="text-center text-white">© Copyright 2022, All Rights Reserved by ClarityUI</span>
                 </div>
             </header>
         </>
